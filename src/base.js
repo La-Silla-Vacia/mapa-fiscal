@@ -9,36 +9,27 @@ export default class Base extends Component {
     return(
       <div className={s.container}>
         <div className="cont_circulos">
-          <img src="http://archivo.lasillavacia.com/archivos/historias/mapaspreelecciones2015/revocatoria3.jpg" alt="" className="background-img" />
-          <a href="http://lasillavacia.com/node/60895" target="_blank">
+          <img src="https://c1.staticflickr.com/5/4481/37461102331_5a98d0df7f_b.jpg" />
+
+      <a href="http://lasillavacia.com/node/62840" target="_blank">
             <div className="personaje uno">
-              <div className="punto color2"><span>Cartagena</span></div>
+              <div className="punto color"><span className="ancho">Norte de Santander</span></div>
             </div>
           </a>
 
-          <a href="http://lasillavacia.com/node/60896" target="_blank">
+          <a href="http://lasillavacia.com/node/62838" target="_blank">
             <div className="personaje dos">
-              <div className="punto color1"><span>Bucaramanga</span></div>
+              <div className="punto color"><span>Quindío</span></div>
             </div>
           </a>
 
-          <a href="http://lasillavacia.com/node/60897" target="_blank">
+          <a href="http://lasillavacia.com/node/62839" target="_blank">
             <div className="personaje tres">
-              <div className="punto color1"><span>Bogotá</span></div>
+              <div className="punto color"><span>Nariño</span></div>
             </div>
           </a>
 
-          <a href="http://lasillavacia.com/node/60898" target="_blank">
-            <div className="personaje cua">
-              <div className="punto color2"><span>Buga</span></div>
-            </div>
-          </a>
 
-          <a href="http://lasillavacia.com/node/60899" target="_blank">
-            <div className="personaje cin">
-              <div className="punto color1"><span>Neiva</span></div>
-            </div>
-          </a>
         </div>
       </div>
     )

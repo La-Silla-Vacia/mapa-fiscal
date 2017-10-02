@@ -25,29 +25,21 @@
   }
 
   .personaje.uno {
-    left: 40%;
-    top: 18%;
+    left: 55%;
+    top: 33%;
   }
 
   .personaje.dos {
-    left: 57%;
-    top: 41.3%;
+    left: 36.1%;
+    top: 61.3%;
   }
 
   .personaje.tres {
-    left: 50%;
-    top: 58%;
+    left: 20%;
+    top: 84%;
   }
 
-  .personaje.cua {
-    left: 35%;
-    top: 63.5%;
-  }
 
-  .personaje.cin {
-    left: 41.8%;
-    top: 70.4%;
-  }
 
   .cont_circulos {
     position: relative;
@@ -77,8 +69,8 @@
 
   .punto {
     position: absolute;
-    width: 1em;
-    height: 1em;
+    width: .9em;
+    height: .9em;
     border: 2px solid #FFFFFF;
     border-radius: 800px;
     top: 0px;
@@ -99,7 +91,14 @@
     color: #000;
     font-weight: 600;
     font-size: 1.1em;
+    float: left;
+    width: 200px;
   }
+
+.punto span:hover{
+  font-size: 1.2em;
+  transition: .2s;
+}
 
   .inv {
     display: none;
@@ -117,25 +116,10 @@
     text-align: left;
   }
 
-  .color1 {
-    background-color: #eb364a!important;
+  .color {
+    background-color: white!important;
   }
 
-  .color2 {
-    background-color: #f7d42a!important;
-  }
-
-  .color3 {
-    background-color: #bb7693!important;
-  }
-
-  .color4 {
-    background-color: #21b087!important;
-  }
-
-  .color5 {
-    background-color: #c3ce3d!important;
-  }
 
   .background-img {
     width: 100%;
