@@ -11,7 +11,7 @@ export default class Base extends Component {
         <div className="cont_circulos">
           <img src="https://c1.staticflickr.com/5/4481/37461102331_5a98d0df7f_b.jpg" />
 
-      <a href="http://lasillavacia.com/node/62840" target="_blank">
+          <a href="http://lasillavacia.com/node/62840" target="_blank">
             <div className="personaje uno">
               <div className="punto color"><span className="ancho">Norte de Santander</span></div>
             </div>
